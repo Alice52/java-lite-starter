@@ -1,2 +1,2 @@
-# java-lite-starter
-java lite starter template
+# graphql
+this is repo about graphql.
