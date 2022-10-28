@@ -1,6 +1,12 @@
 server:
   port: 9007
+
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  config:
+    use-legacy-processing: true
   profiles:
     active: dev
   application:

@@ -1,8 +1,8 @@
 package custom.test.mq.sender;
 
+import common.redis.config.ExcludeRedisConfig;
 import common.swagger.annotation.EnableSwagger;
 import common.uid.annotation.EnableUID;
-import top.hubby.custom.test.config.ExcludeRedisConfig;
 import top.hubby.mq.sender.annotation.EnableMQSender;
 
 import org.springframework.boot.SpringApplication;
