@@ -1,13 +1,12 @@
 version: '3.0'
 services:
-  # also need mysql and redis
-  custom-gateway:
-    image: registry.cn-shanghai.aliyuncs.com/alice52/practice-custom-gateway:20210627.5b87d25
+  dev-project-test:
+    image: registry.cn-shanghai.aliyuncs.com/alice52/project-project-test:20221031.7e3eeae
     restart: 'on-failure:3'
-    container_name: dev-custom-gateway
-    ports:
-      - 8000:9999
+    container_name: dev-project-test
     volumes:
-      - /root/nginx/www/project-custom-cloud:/logs
+      - /root/dev-project-test/logs:/logs
+    ports:
+      - 8083:8080
     environment:
-      - spring.profiles.active=cloud
+      - TZ=Asia/Shanghai
