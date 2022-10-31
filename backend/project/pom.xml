@@ -12,6 +12,7 @@
         <module>common-api</module>
         <module>project-test</module>
         <module>custom-test</module>
+        <module>project-common-api</module>
     </modules>
 
     <properties>
@@ -35,7 +36,7 @@
         <swagger-bootstrap-ui.version>1.9.3</swagger-bootstrap-ui.version>
         <swagger2.knife4j>3.0.3</swagger2.knife4j>
         <swagger.starter>3.0.0</swagger.starter>
-        <slf4j.api.version>2.0.3</slf4j.api.version>
+        <slf4j.api.version>1.7.36</slf4j.api.version>
         <logback.core.version>1.2.9</logback.core.version>
         <logback.classic.version>1.2.3</logback.classic.version>
 
@@ -56,7 +57,7 @@
         <cloud.alibaba.version>2021.1</cloud.alibaba.version>
         <security.oauth.version>2.5.2.RELEASE</security.oauth.version>
         <feign.core.version>11.10</feign.core.version>
-        <spring.boot.maven.version>2.2.2.RELEASE</spring.boot.maven.version>
+        <spring.boot.maven.version>2.2.6.RELEASE</spring.boot.maven.version>
 
         <!-- jackson -->
         <jackson.modules>2.13.4</jackson.modules>
@@ -78,7 +79,7 @@
         <justauth.starter>1.4.0</justauth.starter>
         <grpc_version>1.50.2</grpc_version>
         <curator.zk.version>5.4.0</curator.zk.version>
-        <qcloud.version>5.6.109</qcloud.version>
+        <qcloud.version>5.6.108</qcloud.version>
         <!--  #region  ====================== common version =====================    -->
     </properties>
 
@@ -106,6 +107,7 @@
                 <groupId>org.slf4j</groupId>
                 <version>${slf4j.api.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
