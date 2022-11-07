@@ -26,31 +26,36 @@
 
 1. api
 2. schema
+3. custom: relative note about tech
 
 ### frontend
 
-```js
-.
-├── App.vue
-├── build
-├── components
-├── env
-├── fonts
-├── i18n
-├── images
-├── libs
-├── main.js
-├── modules
-├── node_modules
-├── package.json
-├── pages
-├── router
-├── store.js
-├── styles
-├── template.ejs
-├── utils
-├── vue.config.js
-└── yarn.lock
-```
+1. ~~v1~~
+
+   ```js
+   .
+   ├── App.vue
+   ├── build
+   ├── components
+   ├── env
+   ├── fonts
+   ├── i18n
+   ├── images
+   ├── libs
+   ├── main.js
+   ├── modules
+   ├── node_modules
+   ├── package.json
+   ├── pages
+   ├── router
+   ├── store.js
+   ├── styles
+   ├── template.ejs
+   ├── utils
+   ├── vue.config.js
+   └── yarn.lock
+   ```
+
+2. v2: fork from dz-vite-starter
 
 ### ~~webapp~~
