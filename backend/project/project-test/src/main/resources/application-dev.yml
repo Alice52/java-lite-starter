@@ -1,4 +1,4 @@
 spring:
   profiles:
     # this sequence is master
-    include: dev
+    include: dev,log-dev

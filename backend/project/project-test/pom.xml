@@ -12,10 +12,9 @@
     <artifactId>project-test</artifactId>
 
     <dependencies>
-
         <dependency>
             <groupId>io.github.alice52</groupId>
-            <artifactId>project-common-api</artifactId>
+            <artifactId>common-api-inject</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
